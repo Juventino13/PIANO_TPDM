@@ -9,6 +9,13 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="DESCRIPCION DEL PIANO " />
+        android:text="DESCRIPCION DEL PIANO "
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El piano es un instrumento el cual tiene teclas "
+        />
 
 </LinearLayout>
