@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".Main3Activity">
 
     <TextView
@@ -17,5 +18,18 @@
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="LAS NOTAS Blablabalbalabla exxisten 7 notas blablaba"/>
+        android:text="¿Que es una nota? "/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="¿Que es una nota? "/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="LAS 7 NOTAS MUSICALES "/>
 </LinearLayout>
