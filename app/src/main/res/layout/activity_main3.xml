@@ -2,34 +2,64 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+android:background="#FFD740"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:orientation="vertical"
+
     android:padding="20dp"
     tools:context=".Main3Activity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Informacion  de notas"
+
+        android:text="Notas"
         />
 
     <TextView
 
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="¿Que es una nota? "/>
 
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="¿Que es una nota? "/>
+        android:layout_height="wrap_content"
+        android:text="Las notas musicales son sonidos musicales,
+         mejor conocidos como tonos, que pueden ser ejecutados o interpretados
+         en cualquier instrumento musical, incluyendo la voz. "/>
 
 
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="LAS 7 NOTAS MUSICALES "/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="LAS 7 NOTAS MUSICALES"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Las notas naturales, ordenadas según su altura,
+        \n de la más grave a la más aguda (coloquialmente, de la más “baja” a la más “alta”),
+        son: Do, Re, Mi, Fa, Sol, La y Si."/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Clasificación de las notas musicales"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="naturales: que son los siete sonidos básicos que todos conocemos: do, re, mi, fa, sol, la, si.
+        \n alteradas: son las mismas notas musicales naturales, pero alteradas
+         cromáticamente en forma ascendente, Son las teclas negras del piano"/>
 </LinearLayout>
