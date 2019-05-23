@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-android:background="#FFD740"
+android:background="#FFFFFF"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
@@ -14,15 +14,18 @@ android:background="#FFD740"
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
-        android:text="Notas"
+android:textAlignment="center"
+        android:text="PIANO KIDZ"
         />
 
     <TextView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20dp"
         android:layout_marginTop="10dp"
+        android:background="@color/colorFondoTexto"
         android:text="¿Que es una nota? "/>
 
 
@@ -39,6 +42,9 @@ android:background="#FFD740"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="@color/colorFondoTexto"
+        android:textAlignment="center"
+        android:textSize="20dp"
         android:text="LAS 7 NOTAS MUSICALES"/>
 
     <TextView
@@ -54,12 +60,23 @@ android:background="#FFD740"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Clasificación de las notas musicales"/>
+        android:textAlignment="center"
+        android:background="@color/colorFondoTexto"
+        android:textSize="20dp"
+            android:text="Clasificación de las notas musicales"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="naturales: que son los siete sonidos básicos que todos conocemos: do, re, mi, fa, sol, la, si.
-        \n alteradas: son las mismas notas musicales naturales, pero alteradas
+
+        android:layout_marginBottom="20dp"
+        android:text="Naturales: que son los siete sonidos básicos que todos conocemos: do, re, mi, fa, sol, la, si.
+      \n  \n alteradas: son las mismas notas musicales naturales, pero alteradas
          cromáticamente en forma ascendente, Son las teclas negras del piano"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/notas" />
 </LinearLayout>
