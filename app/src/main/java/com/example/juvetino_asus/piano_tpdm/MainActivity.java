@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Button acercade= (Button) findViewById(R.id.infonotas);
         acercade.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View v) 000000000{
                 startActivity(new Intent( MainActivity.this,Main3Activity.class));
             }
         });
