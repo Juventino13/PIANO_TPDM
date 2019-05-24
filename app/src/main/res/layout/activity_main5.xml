@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main5Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:background="#F58322"
+        android:textSize="15dp"
+        android:text="INFORMACION "/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:background="@color/colorFondoTexto"
+        android:textSize="20dp"
+        android:text="     INSTITUTO TECNOLOGICCO DE TEPIC "/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="22dp" />
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+
+        android:src="@drawable/itt_escudo" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:text="
+        \n          Materia: Taller de Dispositivos Moviles \n
+        \n       Unidad: 4\n
+        \n Alumnos: \n Juventino Perez Peraza \n Ángel Eliezer Cruz Aguilar  \n Jose Miguel Cervantes Jimenez
+\n \n Docente: Sergio Benigno Castillo Valtierra "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textAlignment="center"
+        android:background="#FFEB3B"
+        android:textSize="10dp"
+        android:text="#NoMeRepruebesBenigno "/>
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="174dp"
+
+        android:src="@drawable/android" />
+</LinearLayout>
