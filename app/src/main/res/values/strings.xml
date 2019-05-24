@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">PIANO KIDZ</string>
-
+    <string-array name="canciones">
+        <item>Seleciona una canción&#8230;</item>
+        <item>Himno de la alegría</item>
+        <item>Estrellita</item>
+        <item>Martinillo</item>
+        <item>Baby Shark</item>
+        <item>Happy Birthday</item>
+        <item>Mary had a little lamb</item>
+    </string-array>
 </resources>
