@@ -44,7 +44,7 @@ android:textAlignment="center"
         android:text="
         \n          Materia: Taller de Dispositivos Moviles \n
         \n       Unidad: 4\n
-        \n Alumnos: \n Juventino Perez Peraza \n Angel Elizer Cruz Aguilar \n Jose Miguel Cervantes Jimenez
+        \n Alumnos: \n Juventino Perez Peraza \n Ángel Eliezer Cruz Aguilar  \n Jose Miguel Cervantes Jimenez
 \n \n Docente: Sergio Benigno Castillo Valtierra "/>
     <TextView
         android:layout_width="match_parent"
